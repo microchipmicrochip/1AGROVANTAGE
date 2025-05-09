@@ -33,6 +33,11 @@ class CreateProductsTable extends Migration
                 'constraint' => '255',
                 'null'       => true,
             ],
+            'category_id' => [ 
+            'type'       => 'INT',
+            'constraint' => 11,
+            'unsigned'   => true,
+            ],
             'created_at'  => [
                 'type' => 'DATETIME',
                 'null' => true,
