@@ -10,5 +10,5 @@ class ProductModel extends Model
     protected $primaryKey = 'id';
 
     protected $useTimestamps = true;
-    protected $allowedFields = ['name', 'description', 'price', 'image'];
+    protected $allowedFields = ['name', 'description', 'price', 'image'];  //  For now, let's keep it without 'category_id' to simplify
 }
